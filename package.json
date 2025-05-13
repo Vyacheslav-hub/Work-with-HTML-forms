@@ -45,5 +45,5 @@
   "jest": {
     "preset": "jest-puppeteer"
   },
-  "homepage": "https://Vyacheslav-hub.github.io/Work-with-HTML-forms"
+  "homepage": "."
 }
