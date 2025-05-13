@@ -9,6 +9,7 @@
     "build": "webpack --mode production",
     "lint": "eslint .",
     "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "e2e-only": "jest --config=jest.e2e.config.js",
     "e2e": "start-server-and-test start http://localhost:9000 e2e-only"
   },
@@ -45,5 +46,5 @@
   "jest": {
     "preset": "jest-puppeteer"
   },
-  "homepage": "."
+  "homepage": "https://Vyacheslav-hub.github.io/Work-with-HTML-forms"
 }
